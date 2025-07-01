@@ -10,5 +10,8 @@
     "react-icons": "^5.5.0",
     "smooth-scrollbar": "^8.8.4"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
 }
