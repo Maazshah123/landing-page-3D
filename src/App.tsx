@@ -75,27 +75,6 @@ const faqs = [
   },
 ];
 
-const testimonials = [
-  {
-    name: "Saman Malik",
-    role: "Customer Support Lead",
-    avatar: "https://randomuser.me/api/portraits/women/44.jpg",
-    review: "The support team is exceptional, guiding us through setup and providing ongoing assistance, ensuring our satisfaction.",
-  },
-  {
-    name: "Aliza Khan",
-    role: "Business Analyst",
-    avatar: "https://randomuser.me/api/portraits/women/65.jpg",
-    review: "The smooth implementation exceeded expectations. It streamlined processes, improving overall business performance.",
-  },
-  {
-    name: "Hassan Ali",
-    role: "E-commerce Manager",
-    avatar: "https://randomuser.me/api/portraits/men/32.jpg",
-    review: "Using this ERP, our online presence and conversions significantly improved, boosting business performance.",
-  },
-  // Add more testimonials as needed
-];
 
 // Calendar day animation
 function AnimatedCalendar() {
@@ -408,7 +387,7 @@ function Benefits() {
         <div ref={sectionRef} className="relative flex items-center justify-center" style={{ width: gridWidth, height: gridHeight, minHeight: 220, marginTop: 40 }}>
           {/* Animated Dots/Particles on the left */}
           <div className="absolute left-[-500px] bottom[300px] top-1/2 -translate-y-1/2 z-0 pointer-events-none" style={{ width: 120, height: 260 }}>
-            {[0, 1, 2, 3, 4].map((dot, i) => (
+            {[0, 1, 2, 3, 4].map((i) => (
               <motion.div
                 key={i}
                 initial={{ y: 0, opacity: 0.7 }}
